@@ -1,0 +1,192 @@
+.footer{
+    width:100%;
+    height:35vh;
+    display:flex;
+    background:#fff;
+    font-size: small;
+}
+.ticketsque{
+    margin:20px 0 0px 200px;
+    width:400px;
+}
+.ticketsque img{
+    margin:0 0 20px 0;
+}
+.company{
+    margin:20px 0 0 50px;
+    width:400px;
+    height:100px;
+}
+.link{
+    
+    display: flex;
+}
+.link1{
+    margin:20px 10px 0 10px;
+}
+.link2{
+    margin:20px 10px 0 10px;
+
+}
+
+.company h1{
+    margin:20px 0 20px 0;
+}
+.Stay{
+    margin:20px 0 20px -100px
+}
+.Stay input{
+    width:250px;
+    height:8vh;
+    background:linear-gradient(to left, #D8CEF6 , #fff);
+    border-radius:5px;
+}
+@media(max-width:1090px){
+    .footer{
+        width:100%;
+        height:35vh;
+        display:flex;
+        background:#fff;
+        font-size: 10px;
+    }
+    .footer h2{
+        font-size: 15px;
+    }
+    .ticketsque{
+        margin:20px 0 0px 100px;
+        width:300px;
+    }
+    .company{
+        margin:20px 0 0 5px;
+        width:300px;
+        height:100px;
+    }
+    .Stay input{
+        width:200px;
+        height:8vh;
+        background:linear-gradient(to left, #D8CEF6 , #fff);
+        border-radius:5px;
+    }
+}
+@media(max-width:950px){
+    .footer{
+        width:100%;
+        height:45vh;
+        display:flex;
+        background:#fff;
+        font-size: 10px;
+    }
+    .ticketsque{
+        margin:20px 0 0px 100px;
+        width:300px;
+    }
+    .company{
+        margin:20px 0 0 5px;
+        width:300px;
+        height:100px;
+    }
+    .Stay{
+        margin:10px 0 20px 100px
+    }
+    .Stay input{
+        width:200px;
+        height:8vh;
+        background:linear-gradient(to left, #D8CEF6 , #fff);
+        border-radius:5px;
+    }
+}
+@media(max-width:750px){
+    .footer{
+        width:100%;
+        height:45vh;
+        display:flex;
+        background:#fff;
+        font-size: 10px;
+    }
+    .ticketsque{
+        margin:20px 0 0px 50px;
+        width:300px;
+    }
+    .company{
+        margin:20px 0 0 25px;
+        width:300px;
+        height:100px;
+    }
+    .Stay{
+        margin:10px 0 20px 20px
+    }
+    .Stay input{
+        width:150px;
+        height:5vh;
+        background:linear-gradient(to left, #D8CEF6 , #fff);
+        border-radius:5px;
+    }
+}
+
+@media(max-width:600px){
+    .footer{
+        width:100%;
+        height:75vh;
+        display:block;
+        background:#fff;
+        font-size: 10px;
+        margin:10px 0  0 0px;
+    }
+    .ticketsque img{
+        margin:10px 0 20px 0;
+        width:150px;
+    } 
+    .ticketsque{
+        margin:20px 0 0px 100px;
+        width:300px;
+    }
+    .company{
+        margin:20px 0 0 100px;
+        width:300px;
+        height:100px;
+    }
+    .Stay{
+        margin:20px 0 0 100px; 
+    }
+    
+    .Stay input{
+        width:150px;
+        height:5vh;
+        background:linear-gradient(to left, #D8CEF6 , #fff);
+        border-radius:5px;
+    }
+}
+
+@media(max-width:499px){
+    .footer{
+        width:100%;
+        height:75vh;
+        display:block;
+        background:#fff;
+        font-size: 10px;
+        margin:10px 0  0 0px;
+    }
+    .ticketsque img{
+        margin:10px 0 20px 0;
+        width:150px;
+    } 
+    .ticketsque{
+        margin:20px 0 0px 30px;
+        width:300px;
+    }
+    .company{
+        margin:20px 0 0 30px;
+        width:300px;
+        height:100px;
+    }
+    .Stay{
+        margin:10px 0 0 30px;
+    }
+    
+    .Stay input{
+        width:150px;
+        height:5vh;
+        background:linear-gradient(to left, #D8CEF6 , #fff);
+        border-radius:5px;
+    }
+}
